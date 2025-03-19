@@ -7,3 +7,46 @@ body{
 background-color: var(--cor-de-fundo);
 margin: 0;
 }
+/* Adicione o seguinte código no seu arquivo CSS */
+.sorvete {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin: 20px auto;
+	padding: 20px;
+	text-align: center;
+	width: 80%;
+}
+
+.sorvete img {
+	border-radius: 50%;
+	height: 100px;
+	margin: 20px auto;
+	width: 100px;
+}
+
+.sorvete h2 {
+	color: #333;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.sorvete p {
+	color: #666;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.sorvete button {
+	background-color: #333;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 10px 20px;
+}
+
+.sorvete button:hover {
+	background-color: #444;}
